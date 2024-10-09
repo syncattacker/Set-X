@@ -384,3 +384,47 @@ body {
   display: flex;
   gap: 16px;
 }
+
+.color {
+  background-color: #dc9d01;
+}
+
+.company-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.company {
+  font-size: 36px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.social-media-footer {
+  color: #dc9d01;
+  display: flex;
+  gap: 16px;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.icon-footer {
+  border: 2px solid #dc9d01;
+  border-radius: 50%;
+  padding: 18px;
+}
+
+.logo-footer {
+  font-size: 64px;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 42px;
+  margin-top: 24px;
+}
