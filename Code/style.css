@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 400;
+  line-height: 1.2;
+  overflow-x: hidden;
+  background-color: #fff;
+  font-family: "Nunito", serif;
+}
+
+.navbar {
+  display: flex;
+  height: 76px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-elements {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links:link,
+.nav-links:visited {
+  text-decoration: none;
+  /* text-transform: uppercase; Do Uppercase If Required */
+  /* color: #000;  Change as required */
+  transition: all 0.4s;
+}
+
+.nav-links:active,
+.nav-links:hover {
+  /* color: #ff00ff; Change as required */
+}
+
+.section {
+  padding: 100px 120px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Fix as needed */
+
+.heading-lg {
+  /* font-size: 64px;  */
+  /* font-weight: 600; */
+  /* text-align: center; */
+  /* color: ; */
+}
+
+.heading-md {
+  /* font-size: 28px;  */
+  /* font-weight: 600; */
+  /* text-align: center; */
+  /* color: ; */
+}
+
+.heading-sm {
+  /* font-size: 18px;  */
+  /* font-weight: 600; */
+  /* text-align: center; */
+  /* color: ; */
+}
+
+.text {
+  /* font-size: ;
+    color: ; 
+    text-align: ;
+    font-weight: ;
+    font-stlye: ;*/
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
