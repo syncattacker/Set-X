@@ -67,6 +67,17 @@ body {
   background-repeat: no-repeat;
 }
 
+.hero-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #5857573b;
+  z-index: -1;
+}
+
 .section {
   padding: 64px 0;
 }
@@ -217,4 +228,66 @@ body {
   font-weight: 600;
   color: #fff;
   z-index: 99;
+}
+
+.heading-md {
+  font-size: 56px;
+  position: relative;
+  text-align: center;
+}
+
+.heading-md::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 10%;
+  left: 45%;
+  background-color: #dc9d01;
+  bottom: -20px;
+  border-radius: 60px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 96px;
+  column-gap: 28px;
+  margin-bottom: 52px;
+}
+
+.card-heading {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.about-card {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.btn-meet {
+  display: inline-block;
+  background-color: #e6e6e6;
+  color: #000;
+  padding: 12px 36px;
+  border: 3px solid #dc9d01;
+  border-radius: 60px;
+  transition: all 0.4s;
+  font-weight: 500;
+}
+
+.btn-meet:active,
+.btn-meet:hover {
+  background-color: #dc9d01;
+  color: #fff;
+}
+
+.add-bg {
+  background-color: #e6e6e6;
 }
